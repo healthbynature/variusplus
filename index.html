@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BelSalute - we make unique products in health and beauty niche">
+    <title>BelSalute</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookie-popup.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styleCard.css">
+
+    <script data-polyfil="webp">
+        ! function (e, n, A) {
+          function o(e, n) {
+            return typeof e === n
+          }
+    
+          function t() {
+            var e, n, A, t, a, i, l;
+            for (var f in r)
+              if (r.hasOwnProperty(f)) {
+                if (e = [], n = r[f], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options
+                    .aliases.length))
+                  for (A = 0; A < n.options.aliases.length; A++) e.push(n.options.aliases[A].toLowerCase());
+                for (t = o(n.fn, "function") ? n.fn() : n.fn, a = 0; a < e.length; a++) i = e[a], l = i.split("."), 1 === l
+                  .length ? Modernizr[l[0]] = t : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[
+                    0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = t), s.push((t ? "" : "no-") + l.join("-"))
+              }
+          }
+    
+          function a(e) {
+            var n = u.className,
+              A = Modernizr._config.classPrefix || "";
+            if (c && (n = n.baseVal), Modernizr._config.enableJSClass) {
+              var o = new RegExp("(^|\s)" + A + "no-js(\s|$)");
+              n = n.replace(o, "$1" + A + "js$2")
+            }
+            Modernizr._config.enableClasses && (n += " " + A + e.join(" " + A), c ? u.className.baseVal = n : u.className =
+              n)
+          }
+    
+          function i(e, n) {
+            if ("object" == typeof e)
+              for (var A in e) f(e, A) && i(A, e[A]);
+            else {
+              e = e.toLowerCase();
+              var o = e.split("."),
+                t = Modernizr[o[0]];
+              if (2 == o.length && (t = t[o[1]]), "undefined" != typeof t) return Modernizr;
+              n = "function" == typeof n ? n() : n, 1 == o.length ? Modernizr[o[0]] = n : (!Modernizr[o[0]] || Modernizr[o[
+                0]] instanceof Boolean || (Modernizr[o[0]] = new Boolean(Modernizr[o[0]])), Modernizr[o[0]][o[1]] = n), a(
+                [(n && 0 != n ? "" : "no-") + o.join("-")]), Modernizr._trigger(e, n)
+            }
+            return Modernizr
+          }
+          var s = [],
+            r = [],
+            l = {
+              _version: "3.6.0",
+              _config: {
+                classPrefix: "",
+                enableClasses: !0,
+                enableJSClass: !0,
+                usePrefixes: !0
+              },
+              _q: [],
+              on: function (e, n) {
+                var A = this;
+                setTimeout(function () {
+                  n(A[e])
+                }, 0)
+              },
+              addTest: function (e, n, A) {
+                r.push({
+                  name: e,
+                  fn: n,
+                  options: A
+                })
+              },
+              addAsyncTest: function (e) {
+                r.push({
+                  name: null,
+                  fn: e
+                })
+              }
+            },
+            Modernizr = function () {};
+          Modernizr.prototype = l, Modernizr = new Modernizr;
+          var f, u = n.documentElement,
+            c = "svg" === u.nodeName.toLowerCase();
+          ! function () {
+            var e = {}.hasOwnProperty;
+            f = o(e, "undefined") || o(e.call, "undefined") ? function (e, n) {
+              return n in e && o(e.constructor.prototype[n], "undefined")
+            } : function (n, A) {
+              return e.call(n, A)
+            }
+          }(), l._l = {}, l.on = function (e, n) {
+            this._l[e] || (this._l[e] = []), this._l[e].push(n), Modernizr.hasOwnProperty(e) && setTimeout(function () {
+              Modernizr._trigger(e, Modernizr[e])
+            }, 0)
+          }, l._trigger = function (e, n) {
+            if (this._l[e]) {
+              var A = this._l[e];
+              setTimeout(function () {
+                var e, o;
+                for (e = 0; e < A.length; e++)(o = A[e])(n)
+              }, 0), delete this._l[e]
+            }
+          }, Modernizr._q.push(function () {
+            l.addTest = i
+          }), Modernizr.addAsyncTest(function () {
+            function e(e, n, A) {
+              function o(n) {
+                var o = n && "load" === n.type ? 1 == t.width : !1,
+                  a = "webp" === e;
+                i(e, a && o ? new Boolean(o) : o), A && A(n)
+              }
+              var t = new Image;
+              t.onerror = o, t.onload = o, t.src = n
+            }
+            var n = [{
+                uri: "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
+                name: "webp"
+              }, {
+                uri: "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
+                name: "webp.alpha"
+              }, {
+                uri: "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
+                name: "webp.animation"
+              }, {
+                uri: "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+                name: "webp.lossless"
+              }],
+              A = n.shift();
+            e(A.name, A.uri, function (A) {
+              if (A && "load" === A.type)
+                for (var o = 0; o < n.length; o++) e(n[o].name, n[o].uri)
+            })
+          }), t(), a(s), delete l.addTest, delete l.addAsyncTest;
+          for (var p = 0; p < Modernizr._q.length; p++) Modernizr._q[p]();
+          e.Modernizr = Modernizr
+        }(window, document)
+      </script>
+  </head>
+
+  <body>
+     <header class="main-header">
+  <nav id="navbar" class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="fonts/logo-bs.svg" alt="Belsalute" class="img-fluid" width="137" height="43"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="nav-menu">
+        <span class="navbar-toggler-icon icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-en" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="/partners">Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contacts">Contacts</a></li>
+        </ul>
+        
+  <form action="/language" method="POST">
+    <select onchange="this.form.submit()" name="language" class="select-language">
+      <option value="en" selected>en</option>
+<option value="fr">fr</option>
+<option value="ro">ro</option>
+<option value="es">es</option>
+<option value="pt">pt</option>
+<option value="it">it</option>
+    </select>
+  </form>
+  
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<main role="main">
+  <section class="description">
+    <div class="description__top block bg-grey">
+      <div class="container">
+        <div class="description__left">
+          <h2 class="description__left--title">Varius Plus – gel for varicose veins</h2>
+           
+          <p class="description__left--about">Reduce leg swelling and fatigue</p>
+                   
+        </div>
+        <div class="description__center">
+          <picture>
+            <source media="(max-width: 479px)" srcset="images/variusplus-mob.webp" type="image/webp">
+            <source media="(max-width: 479px)" srcset="images/variusplus-mob.png">
+            <source srcset="images/variusplus.webp" type="image/webp">
+            <img class="description__center--prod" src="images/variusplus.png" alt="product">
+            </picture>
+        </div>
+        <div class="description__right">
+          <div class="description__btn--wrap"><a class="description__btn btn" href="#form-bottom-order">Order now</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="description__bottom block">
+      <div class="container">
+        <ul class="description__list">
+             
+          <li class="description__list--el">Eliminates symptoms and prevents varicose veins</li>
+            
+          <li class="description__list--el">Strengthens the blood vessels walls</li>
+            
+          <li class="description__list--el">Stops venous status</li>
+            
+          <li class="description__list--el">Reduce leg swelling and fatigue</li>
+           
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="consist block bg-grey">
+    <div class="container">
+      <h2 class="title consist__title">Ingredients:</h2>
+      <div class="consist__prod">
+        <picture>
+          <source media="(max-width: 479px)" srcset="images/variusplus-mob.webp" type="image/webp">
+          <source media="(max-width: 479px)" srcset="images/variusplus-mob.png">
+          <source srcset="images/variusplus.webp" type="image/webp">
+          <img class="consist__prod--img" src="images/variusplus.png" alt="product">
+        </picture>
+      </div>
+      <ul class="consist__list">
+        <li class="consist__list--el">
+          <picture>
+            <source srcset="images/aesculus.webp" type="image/webp">
+            <img class="consist__list--el-img" src="images/aesculus.png" alt="composition">
+          </picture>
+          <div class="consist__list--el-right">
+            <b class="consist__list--el-title">Aesculus hippocastanum</b>
+            <p class="consist__list--el-descr">Improves blood circulation, increases capillary permeability, reduces puffiness and relieves inflammation</p>
+          </div>
+        </li>
+        <li class="consist__list--el">
+          <picture>
+            <source srcset="images/algae.webp" type="image/webp">
+            <img class="consist__list--el-img" src="images/algae.png" alt="composition">
+          </picture>
+          <div class="consist__list--el-right">
+            <b class="consist__list--el-title">Algae Extract</b>
+            <p class="consist__list--el-descr">Removes capillary mesh and normalizes local blood circulation</p>
+          </div>
+        </li>
+        <li class="consist__list--el">
+          <picture>
+            <source srcset="images/castoroil.webp" type="image/webp">
+            <img class="consist__list--el-img" src="images/castoroil.png" alt="composition">
+          </picture>
+          <div class="consist__list--el-right">
+            <b class="consist__list--el-title">Castor oil</b>
+            <p class="consist__list--el-descr">Supports vein health</p>
+          </div>
+        </li>
+        <li class="consist__list--el">
+          <picture>
+            <source srcset="images/caffeine.webp" type="image/webp">
+            <img class="consist__list--el-img" src="images/caffeine.png" alt="composition">
+          </picture>
+          <div class="consist__list--el-right">
+            <b class="consist__list--el-title">Caffeine</b>
+            <p class="consist__list--el-descr">Restores blood vessels tone and prevents their fragility</p>
+          </div>
+        </li>
+      </ul>
+      <div class="consist__plus en"></div>
+      <div class="consist__hidden">
+        <p class="consist__hidden--main">water, propylene glycol, caffeine, dicapryl carbonate, stearic acid, levocarnitine, carbomer, perfume, PEG-40 hydrogenated castor oil, potassium hydroxide, algae extract, horse chestnut extract, benzyl salicylate, hydroxycitronellal, linalool, Ethylhexylglycerin</p>
+        <p class="consist__hidden--country"><b class="consist__hidden--country-b">Country of manufacture: </b> Latvia</p>
+      </div>
+    </div>
+  </section>
+  <section class="advan block">
+    <div class="container">
+      <h2 class="title advan__title">Here are the following advantages of Varius Plus:</h2>
+      <ul class="advan__main--left">
+         
+        <li class="advan__main--el">Thanks to the great formula, the gel is absorbed immediately</li>
+            
+        <li class="advan__main--el">Quickly relieves the uncomfortable symptoms of varicose veins</li>
+           
+      </ul>
+      <div class="advan__main--prod">
+        <picture> 
+          <source media="(max-width: 479px)" srcset="images/variusplus-mob.webp" type="image/webp">
+          <source media="(max-width: 479px)" srcset="images/variusplus-mob.png">
+          <source srcset="images/variusplus.webp" type="image/webp">
+          <img class="advan__main--prodimg" src="images/variusplus.png" alt="product">
+        </picture>
+        </div>
+      <ul class="advan__main--right">
+           
+        <li class="advan__main--el">Prevention and biotherapy of venous diseases</li>
+            
+        <li class="advan__main--el">Provides a feeling of lightness in legs</li>
+         
+      </ul>
+    </div>
+  </section>
+      <section class="cert block bg-grey">
+      <div class="container">
+        <h2 class="title cert__title">Certificate confirming that Varius Plus is not a pharmacological agent:</h2>
+        <img class="cert__img" src="images/variusplus.jpg" alt="">
+        <div class="cert__popup">
+          <div class="cert__popup--img">
+            <img src="images/variusplus.jpg" alt="">
+            <div class="cert__cross"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <section class="use block">
+    <div class="container">
+      <h2 class="title use__title">How to use Varius Plus:</h2>
+
+      <ul class="use__list">
+        <li class="use__list--el">
+          <picture>
+            <source srcset="images/applygel.webp" type="image/webp">
+            <img class="use__list--el-img" src="images/applygel.jpg" alt="">
+          </picture>
+          <p class="use__list--el-descr">Apply the gel to the affected area</p>
+        </li>
+        <li class="use__list--el">
+          <picture>
+            <source srcset="images/massagelegs.webp" type="image/webp">
+            <img class="use__list--el-img" src="images/massagelegs.jpg" alt="">
+          </picture>
+          <p class="use__list--el-descr">Massage it using light movements</p>
+        </li>
+        <li class="use__list--el">
+          <picture>
+            <source srcset="images/3times.webp" type="image/webp">
+            <img class="use__list--el-img" src="images/3times.jpg" alt="">
+          </picture>
+          <p class="use__list--el-descr">Repeat the procedure 3 times a day</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="order block bg-grey" id="form-bottom-order">
+    <div class="container">
+      <h2 class="order__title">How to order and pay for the product</h2>
+      <ul class="order__list">
+        <li class="order__list--el">
+          <div class="order__list--pic"><img class="order__list--pic-img" src="images/icon-order-1.png" alt=""></div>
+          <p class="order__list--text">Fill out the order form</p>
+        </li>
+        <li class="order__list--el">
+          <div class="order__list--pic"><img class="order__list--pic-img" src="images/icon-order-4.png" alt=""></div>
+          <p class="order__list--text">Pay for your order</p>
+        </li>
+        <li class="order__list--el">
+          <div class="order__list--pic"><img class="order__list--pic-img" src="images/icon-order-3.png" alt=""></div>
+          <p class="order__list--text">Receive your order</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+ 
+  <section class="form block">
+    <div class="container">
+      <h2 class="title form__title">
+         Order form for Varius Plus: 
+      </h2>
+       <form class="form__main" id="address-form" action="/orders" method="post">
+  <input name="payment_form_template_index" type="hidden" value="0">
+  <input name="bundle_set_index" type="hidden" value="0">
+  <input name="product_id" type="hidden" value="variusplus">
+  <input name="user_language" type="hidden" value="en">
+  <p class="form__main--title">Where do we ship your order?</p>
+  <div class="form__input-wrap"><input class="form__input" type="text" name="first_name" placeholder="First Name" required></div>
+  <div class="form__input-wrap"><input class="form__input" type="text" name="last_name" placeholder="Last name" required></div>
+  <div class="form__input-wrap country_select">
+    
+    <select class="country-select" name="country">
+      <option data-regions="Ararat Province,Syunik Province,Vayots Dzor Province,Yerevan,Aragatsotn Province,Armavir Province,Gegharkunik Province,Kotayk Province,Lori Province,Shirak Province,Tavush Province" value="AM">Armenia</option>
+<option data-regions="Vienna,Vorarlberg,Tyrol,Styria,Salzburg,Upper Austria,Lower Austria,Kärnten,Burgenland" value="AT">Austria</option>
+<option data-regions="Razgrad Province,Montana Province,Vratsa Province,Varna Province,Dobrich Province,Sofia Province,Ruse Province,Plovdiv Province,Pleven Province,Pernik Province,Pazardzhik Province,Lovech Province,Haskovo Province,Sofia,Burgas,Blagoevgrad Province,Gabrovo Province,Kardzhali Province,Kyustendil Province,Shumen Province,Silistra Province,Sliven Province,Smolyan Province,Stara Zagora Province,Targovishte Province,Veliko Tarnovo Province,Vidin Province,Yambol Province" value="BG">Bulgaria</option>
+<option data-regions="Prague,South Moravian Region,South Bohemian Region,Vysočina Region,Karlovy Vary Region,Hradec Králové Region,Liberec Region,Olomouc District,Moravian-Silesian Region,Pardubice Region,Plzeň Region,Central Bohemian Region,Ústí nad Labem Region,Zlín" value="CZ">Czech Republic</option>
+<option data-regions="Thuringia,Schleswig-Holstein,Saxony-Anhalt,Saxony,Saarland,Rhineland-Palatinate,North Rhine-Westphalia,Lower Saxony,Mecklenburg-Vorpommern,Hesse,Hamburg,Bremen,Brandenburg,Berlin,Bavaria,Baden-Württemberg" value="DE">Germany</option>
+<option data-regions="Region of Murcia,Ceuta,Balears,Andalusia,Canary Islands,Castilla-La Mancha,Extremadura,Valencian Community,Asturias,Navarre,Community of Madrid,La Rioja,Cantabria,Aragon,Castile and León,Catalonia,Galicia,Basque Country,Melilla" value="ES">Spain</option>
+<option data-regions="Tbilisi,Adjara,Kvemo Kartli,Kakheti,Guria,Imereti,Shida Kartli,Mtskheta-Mtianeti,Racha-Lechkhumi and Kvemo Svaneti,Samegrelo-Zemo Svaneti,Samtskhe-Javakheti,Abkhazia" value="GE">Georgia</option>
+<option data-regions="Bjelovar-Bilogora County,Brod-Posavina County,Dubrovnik-Neretva County,Istria County,Karlovac County,Koprivnica-Križevci County,Krapina-Zagorje County,Lika-Senj County,Međimurje County,Osijek-Baranja County,Požega-Slavonia County,Primorje-Gorski Kotar County,Šibenik-Knin County,Sisak-Moslavina County,Split-Dalmatia County,Varaždin County,Vukovar-Syrmia County,Zadar County,Zagreb County,Zagreb,Virovitica-Podravina County" value="HR">Croatia</option>
+<option data-regions="Szabolcs-Szatmár-Bereg County,Jász-Nagykun-Szolnok County,Heves County,Hajdú-Bihar County,Csongrád County,Borsod-Abaúj-Zemplén County,Békés County,Zala County,Veszprém County,Vas County,Tolna County,Somogy County,Pest County,Nógrád County,Komárom-Esztergom County,Győr-Moson-Sopron County,Fejér County,Budapest,Baranya County,Bács-Kiskun County" value="HU">Hungary</option>
+<option data-regions="Grand Est,Nouvelle-Aquitaine,Auvergne-Rhône-Alpes,Bourgogne-Franche-Comté,Region Bretagne,Centre-Val de Loire,Corse,Île-de-France,Occitanie,Hauts-de-France,Region Normandie,Pays de la Loire,Provence-Alpes-Côte d`Azur" value="FR">France</option>
+<option data-regions="Sicily,Sardinia,Calabria,Veneto,Aosta Valley,Umbria,Trentino-Alto Adige/Südtirol,Tuscany,Apulia,Piedmont,Molise,Marche,Lombardy,Liguria,Lazio,Friuli-Venezia Giulia,Emilia-Romagna,Campania,Basilicata,Abruzzo" value="IT">Italy</option>
+<option data-regions="Batys Qazaqstan oblysy,Mangghystaū oblysy,Atyraū oblysy,Aqtöbe oblysy,Shyghys Qazaqstan oblysy,Aqmola oblysy,Soltüstik Qazaqstan oblysy,Pavlodar oblysy,Qyzylorda oblysy,Qostanay oblysy,Qaraghandy oblysy,Zhambyl oblysy,Ongtüstik Qazaqstan oblysy,Almaty,Almaty oblysy,Bayqongyr,Astana" value="KZ">Kazakhstan</option>
+<option data-regions="Alytus County,Kaunas County,Klaipėda County,Marijampolė County,Panevėžys County,Šiauliai County,Tauragė County,Telšiai County,Utena County,Vilnius County" value="LT">Lithuania</option>
+<option data-regions="Ventspils Municipality,Ventspils,Valmiera,Valka Municipality,Tukums Municipality,Talsi Municipality,Saldus Municipality,Riga,Rēzekne Municipality,Rēzekne,Preiļi Municipality,Ogre Municipality,Madona Municipality,Ludza Municipality,Limbaži Municipality,Liepāja,Kuldīga Municipality,Krāslava Municipality,Jūrmala,Jelgava Municipality,Jelgava,Jēkabpils Municipality,Gulbene Municipality,Dobele municipality,Daugavpils Municipality,Daugavpils,Cēsis Municipality,Bauska Municipality,Balvi Municipality,Alūksne Municipality,Aizkraukle Municipality,Dundaga Municipality,Alsunga municipality,Pāvilosta Municipality,Nīca Municipality,Rucava Municipality,Grobiņa Municipality,Durbe Municipality,Aizpute Municipality,Priekule Municipality,Vaiņode Municipality,Skrunda Municipality,Brocēni Municipality,Roja Municipality,Kandava Municipality,Auce Municipality,Jaunpils Municipality,Engure Municipality,Tērvete Municipality,Ozolnieki Municipality,Rundāle Municipality,Babīte Municipality,Mārupe Municipality,Olaine Municipality,Iecava municipality,Ķekava Municipality,Salaspils Municipality,Baldone Municipality,Stopiņi municipality,Carnikava Municipality,Ādaži Municipality,Garkalne Municipality,Vecumnieki Municipality,Ķegums Municipality,Lielvārde Municipality,Skrīveri Municipality,Jaunjelgava Municipality,Nereta Municipality,Viesīte Municipality,Sala Municipality,Jēkabpils,Aknīste Municipality,Ilūkste Municipality,Vārkava Municipality,Līvāni Municipality,Varakļāni Municipality,Viļāni Municipality,Riebiņi Municipality,Aglona Municipality,Cibla municipality,Zilupe municipality,Viļaka Municipality,Baltinava Municipality,Dagda Municipality,Kārsava Municipality,Rugāji Municipality,Cesvaine Municipality,Lubāna Municipality,Krustpils Municipality,Pļaviņas Municipality,Koknese Municipality,Ikšķile Municipality,Ropaži Municipality,Inčukalns Municipality,Krimulda Municipality,Sigulda Municipality,Līgatne Municipality,Mālpils Municipality,Sēja Municipality,Saulkrasti Municipality,Salacgrīva Municipality,Aloja Municipality,Naukšēni Municipality,Rūjiena Municipality,Mazsalaca Municipality,Burtnieki Municipality,Pārgauja Municipality,Kocēni Municipality,Amata Municipality,Priekuļi Municipality,Rauna Municipality,Strenči Municipality,Beverīna Municipality,Smiltene Municipality,Jaunpiebalga Municipality,Ērgļi Municipality,Vecpiebalga Municipality,Ape Municipality,Mērsrags Municipality" value="LV">Latvia</option>
+<option data-regions="Edineț County,Ungheni District,Telenești District,Taraclia District,Ștefan Vodă District,Strășeni District,Soroca District,Rîșcani District,Rezina District,Orhei District,Ocnița District,Anenii Noi District,Nisporeni District,Leova District,Sîngerei District,Criuleni District,Ialoveni District,Chișinău,Căușeni District,Cantemir District,Călărași District,Cahul District,Glodeni District,Florești District,Fălești District,Dubăsari District,Drochia District,Dondușeni District,Cimișlia District,Briceni District,Basarabeasca District,Hîncești District,Șoldănești District,Transnistria Autonomous Territorial Unit with Special Legal Status,Gagauzia,Bender,Bălți" value="MD">Moldova</option>
+<option data-regions="Lublin Voivodeship,Lesser Poland Voivodeship,Masovian Voivodeship,Podkarpackie Voivodeship,Podlaskie Voivodeship,Skierniewice Voivodeship,Warmian-Masurian Voivodeship,Lower Silesian Voivodeship,Łódź Voivodeship,Lubusz Voivodeship,Opole Voivodeship,Pomeranian Voivodeship,Słupsk Voivodeship,Greater Poland Voivodeship,West Pomeranian Voivodeship,Kuyavian-Pomeranian Voivodeship" value="PL">Poland</option>
+<option data-regions="Setúbal District,Santarém District,Portalegre District,Lisboa,Leiria District,Faro District,Évora District,Castelo Branco District,Beja District,Madeira,Viseu District,Vila Real District,Viana do Castelo District,Porto District,Guarda District,Coimbra District,Bragança District,Braga District,Aveiro District,Azores" value="PT">Portugal</option>
+<option data-regions="Vrancea County,Vâlcea County,Vaslui County,Tulcea County,Timiș County,Teleorman County,Suceava County,Sibiu County,Satu Mare County,Sălaj County,Prahova County,Olt County,Neamț County,Mureș County,Mehedinți County,Maramureș County,Iași County,Ialomița County,Hunedoara County,Harghita County,Gorj County,Giurgiu County,Galați County,Dolj County,Dâmbovița County,Covasna County,Constanța County,Cluj County,Caraș-Severin County,Călărași County,Buzău County,Bucharest,Brașov County,Brăila County,Botoșani County,Bistrița-Năsăud County,Bihor County,Bacău County,Argeș County,Arad County,Alba County,Ilfov County" value="RO">Romania</option>
+<option data-regions="Yaroslavl Oblast,Voronezh Oblast,Vologda Oblast,Volgograd Oblast,Ulyanovsk Oblast,Udmurtia,Tver Oblast,Tula Oblast,Tatarstan,Tambov Oblast,Stavropol Krai,Smolensk Oblast,Saratov Oblast,Samara Oblast,Ryazan Oblast,Rostov Oblast,Pskov Oblast,Perm Krai,Penza Oblast,Oryol Oblast,Orenburg Oblast,Novgorod Oblast,Severnaya Osetiya-Alaniya,Nenets Autonomous Okrug,Murmansk Oblast,Moscow,Moscow Oblast,Mordovia,Mari El,Lipetsk Oblast,Leningrad Oblast,Saint Petersburg,Kursk Oblast,Krasnodar Krai,Kostroma Oblast,Komi Republic,Kirov Oblast,Kareliya,Karachay-Cherkessia,Kaluga Oblast,Kalmykia,Kaliningrad Oblast,Kabardino-Balkaria,Ivanovo Oblast,Ingushetia,Nizhny Novgorod Oblast,Dagestan,Chuvashia,Chechnya,Bryansk Oblast,Belgorod Oblast,Bashkortostan,Astrakhan Oblast,Arkhangelsk Oblast,Adygea,Vladimir Oblast,Yamalo-Nenets Autonomous Okrug,Tyumen Oblast,Tuva,Tomsk Oblast,Sverdlovsk Oblast,Omsk Oblast,Novosibirsk Oblast,Kurgan Oblast,Krasnoyarsk Krai,Khanty-Mansi Autonomous Okrug,Khakassia,Kemerovo Oblast,Altai Republic,Chelyabinsk Oblast,Altai Krai,Sakha Republic,Primorsky Krai,Khabarovsk Krai,Irkutsk Oblast,Jewish Autonomous Oblast,Amur Oblast,Buryatia,Sakhalin Oblast,Magadan Oblast,Kamchatka Krai,Chukotka Autonomous Okrug,Zabaykalsky Krai" value="RU">Russia</option>
+<option data-regions="Žalec,Municipality of Zagorje ob Savi,Municipality of Vrhnika,Tržič,Municipality of Trebnje,Trbovlje,Municipality of Tolmin,Velenje,Šmarje pri Jelšah,Slovenske Konjice,Slovenska Bistrica,City Municipality of Slovenj Gradec,Municipality of Škofja Loka,Municipality of Sežana,Municipality of Sevnica,Šentjur,Municipality of Ribnica,Municipality of Radovljica,Municipality of Radlje ob Dravi,Ptuj,Municipality of Postojna,Piran,Ormož,City Municipality of Novo Mesto,Nova Gorica,Murska Sobota,Mozirje,Metlika,City Municipality of Maribor,Municipality of Logatec,Municipality of Ljutomer,Litija,Municipality of Lenart,Municipality of Laško,Municipality of Krško,Kranj,Koper,Municipality of Kočevje,Municipality of Kamnik,Municipality of Jesenice,Izola,Municipality of Ilirska Bistrica,Municipality of Idrija,Municipality of Hrastnik,Municipality of Grosuplje,Municipality of Gornja Radgona,Municipality of Dravograd,Municipality of Domžale,Municipality of Črnomelj,Municipality of Cerknica,City Municipality of Celje,Municipality of Brežice,Municipality of Ajdovščina,Hrpelje-Kozina,Municipality of Divača,Municipality of Pivka,Municipality of Loška Dolina,Municipality of Loški Potok,Osilnica,Municipality of Velike Lašče,Škofljica,Municipality of Ig,Municipality of Brezovica,Municipality of Borovnica,Municipality of Vipava,Municipality of Komen,Miren-Kostanjevica,Municipality of Brda,Kanal,Žiri,Municipality of Cerkno,Municipality of Železniki,Municipality of Gorenja Vas,Municipality of Dobrova,Municipality of Kobarid,Municipality of Bovec,Municipality of Bohinj,Municipality of Bled,Municipality of Naklo,Municipality of Kranjska Gora,Municipality of Preddvor,Municipality of Cerklje na Gorenjskem,Municipality of Šenčur,Vodice,Medvode,Municipality of Mengeš,Municipality of Dol pri Ljubljani,Moravče,Municipality of Gornji Grad,Luče,Ravne na Koroškem,Mežica,Muta,Vuzenica,Municipality of Črna na Koroškem,Ljubno,Municipality of Šoštanj,Šmartno ob Paki,Municipality of Lukovica,Radeče,Ivančna Gorica,Municipality of Dobrepolje,Municipality of Semič,Šentjernej,Municipality of Škocjan,Štore,Municipality of Vojnik,Vitanje,Zreče,Mislinja,Municipality of Ruše,Municipality of Kungota,Municipality of Šentilj,Municipality of Pesnica,Municipality of Duplek,Municipality of Rače,Starše,Municipality of Kidričevo,Municipality of Majšperk,Municipality of Videm,Rogaška Slatina,Municipality of Rogatec,Podčetrtek,Kozje,Municipality of Gorišnica,Zavrč,Municipality of Dornava,Juršinci,Sveti Jurij,Radenci,Puconci,Rogašovci,Kuzma,Municipality of Gornji Petrovci,Municipality of Moravske Toplice,Kobilje,Municipality of Beltinci,Municipality of Turnišče,Odranci,Municipality of Črenšovci,Municipality of Nazarje,City Municipality of Ljubljana,Municipality of Žirovnica,Municipality of Jezersko,Solčava,Municipality of Komenda,Municipality of Horjul,Šempeter-Vrtojba,Municipality of Bloke,Sodražica,Trzin,Prevalje,Vransko,Tabor,Municipality of Braslovče,Polzela,Municipality of Prebold,Municipality of Kostel,Žužemberk,Municipality of Dolenjske Toplice,Mirna Peč,Municipality of Bistrica ob Sotli,Municipality of Dobje,Municipality of Dobrna,Oplotnica,Podvelka,Ribnica na Pohorju,Municipality of Lovrenc na Pohorju,Selnica ob Dravi,Municipality of Hoče,Municipality of Miklavž na Dravskem Polju,Municipality of Hajdina,Žetale,Podlehnik,Markovci,Municipality of Destrnik,Municipality of Trnovska Vas,Municipality of Sveti Andraž v Slovenskih Goricah,Municipality of Cerkvenjak,Municipality of Benedikt,Sveta Ana v Slovenskih Goricah,Municipality of Križevci,Municipality of Veržej,Velika Polana,Lendava,Municipality of Dobrovnik,Tišina,Municipality of Cankova,Municipality of Grad,Municipality of Hodoš,Municipality of Razkrižje,Šmartno pri Litiji,Šalovci,Municipality of Apače,Municipality of Kostanjevica na Krki,Municipality of Cirkulane,Log-Dragomer,Makole,Mokronog-Trebelno,Poljčane,Rečica ob Savinji,Municipality of Renče,Središče ob Dravi,Municipality of Straža,Sveta Trojica v Slovenskih Goricah,Municipality of Sveti Tomaž,Šentrupert,Municipality of Šmarješke Toplice,Municipality of Sveti Jurij v Slovenskih Goricah,Municipality of Gorje,Ankaran,Mirna" value="SI">Slovenia</option>
+<option data-regions="Košice Region,Prešov Region,Žilina Region,Banská Bystrica Region,Bratislava Region,Nitra Region,Trenčín Region,Trnava Region" value="SK">Slovakia</option>
+<option data-regions="Zhytomyr Oblast,Zaporizhia Oblast,Zakarpattia Oblast,Volyn Oblast,Vinnytsia Oblast,Ternopil Oblast,Sumy Oblast,Sevastopol,Rivne Oblast,Poltava Oblast,Odessa Oblast,Mykolaiv Oblast,Lviv Oblast,Luhansk Oblast,Kiev Oblast,Kiev,Autonomous Republic of Crimea,Kirovohrad Oblast,Khmelnytskyi Oblast,Kherson Oblast,Kharkiv Oblast,Ivano-Frankivsk Oblast,Donetsk Oblast,Dnipropetrovsk Oblast,Chernivtsi Oblast,Chernihiv Oblast,Cherkasy Oblast" value="UA">Ukraine</option>
+    </select>
+  
+  </div>
+  <div class="form__input-wrap"><input class="form__input" type="text" name="address" placeholder="Address" required></div>
+  <div class="form__input-wrap"><input class="form__input" type="text" name="city" placeholder="City" required></div>
+  <div class="form__input-wrap">
+    <select class="form__input form__select state-select" name="state"> </select>
+  </div>
+  <div class="form__input-wrap"><input class="form__input" type="text" name="zip" placeholder="Postcode" required></div>
+  <div class="form__input-wrap"><input class="form__input" type="email" name="email" placeholder="Email address" required></div>
+  <div class="form__input-wrap"><input class="form__input" type="tel" name="phone" placeholder="Phone" required></div>
+  <button class="form__btn btn" type="submit">PLACE AN ORDER</button><span class="form__ps">256-bit encryption</span><img class="form__secure" src="images/secureicons.png" alt="">
+</form>
+ 
+    </div>
+  </section>
+</main>
+
+<footer class="main-footer section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <a class="navbar-brand" href="/">
+          <img src="fonts/logo-white.svg" alt="Licante" class="img-fluid" width="155" height="32">
+        </a>
+        <p>
+          We are on a mission to deliver quality products to our customers and work continuously to offer better products at the right price.
+        </p>
+        <p>
+          Consumer has the right to return product during 15 days after its purchase without explanation.
+        </p>
+      </div>
+      <div class="col-12 col-md-5 info">
+        <p>
+          SC Make Profit SRL<br>
+          Sector 5, Calea Rahovei Str. 266-268,<br>
+          CORP 2, AXELE A-B, office 06D, <br>
+          Bucharest, Romania, 050897
+        </p>
+        <ul class="police">
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/cookie-policy">Cookie Policy</a></li>
+          <li><a href="/terms" target="_blank">Terms</a></li>
+          <li><a href="https://anpc.ro/" target="_blank" rel="noopener">Consumer rights protection</a></li>
+          <li><a href="https://ec.europa.eu/info/law/law-topic/consumers_en" target="_blank" rel="noopener">Сonsumers EU</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-2 d-none d-md-block quick-links">
+        <p class="h7">Quick links</p>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/partners">Partners</a></li>
+          <li><a href="/contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row row-divider">
+      <div class="col-12">
+        <hr>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+
+    <div class="cookie-popup" style="display: none;">
+      <div class="close-cookie-popup">&times;</div>
+      <div class="cookie-popup-inner">This site uses cookies. By continuing to browse the site, you are agreeing to our use of cookies.
+        <a href="/cookie-policy" target="_blank">Learn more</a>
+      </div>
+      <div class="dismiss-popup">OK</div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.selectric.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/libphonenumber.js"></script>
+    <script src="js/cookie-popup.js"></script>
+    <script src="js/rx.all.js"></script>
+    <script src="js/rx.jquery.js"></script>
+    <!-- Hotjar Tracking Code for https://belsalute.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2253983,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="js_1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EGHTZNYPGG');
+    </script>
+    
+<script src="js/productCard.js"></script>
+<script src="js/send.js"></script>
+
+  </body>
+</html>
